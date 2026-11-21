@@ -13,17 +13,40 @@
     // console.log(`my age + 1 = ${age+1}`)
 
     // א2
-    console.log(typeof 42)//number
-    console.log(typeof 3.14)//number
-    console.log(typeof "שלום")//string
-    console.log(typeof true)//boolean
-    console.log(typeof undefined)//undefined
-    console.log(typeof null)//null *object*
+    // console.log(typeof 42)//number
+    // console.log(typeof 3.14)//number
+    // console.log(typeof "שלום")//string
+    // console.log(typeof true)//boolean
+    // console.log(typeof undefined)//undefined
+    // console.log(typeof null)//null *object*
 
-    console.log("5" * "2")//10
-    console.log("5" - 3)//2
-    console.log("5" + 3)//53
-    console.log(7/2)//3.5
+    // console.log("5" * "2")//10
+    // console.log("5" - 3)//2
+    // console.log("5" + 3)//53
+    // console.log(7/2)//3.5
+
+    // א3
+    // console.log(5 == "5");//true
+    // console.log(5 === "5");//false
+    // console.log(0 == false);//true
+    // console.log(0 === false);//false
+    // console.log(null == undefined);//true
+    // console.log(null === undefined);//false
+    // console.log(NaN === NaN);// ניחשתי true, יצא false: NaN לא שווה לשום דבר, גם לא לעצמו
+    // console.log("a" === "a");//true
+
+    console.log(Boolean(0))
+    console.log(Boolean(""))
+    console.log(Boolean("0"))
+    console.log(Boolean([]))
+    console.log(Boolean(null))
+    console.log(Boolean(undefined))
+    console.log(Boolean("false"))
+    console.log(Boolean(-1))
+    
+    //== השוואה גמישה שממירה את הערכים לאותו הטיפוס ורק אז משווה ביניהם
+    //=== השוואה קפדנית שבודקת גם את הערך וגם את הטיפוס 
+    // לכן עדיף להשתמש ב=== שהיא השוואה יותר מדוייקת
 
   </script>
 </head>
